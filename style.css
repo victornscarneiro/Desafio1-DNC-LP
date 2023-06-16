@@ -1,0 +1,117 @@
+*{
+    margin: 0px;   
+    font-family: "inter";
+}
+#titulo-menuSuperior{
+    margin-top: 185px;
+    margin-left: 65px;
+    width: 1050px;
+    height: 75px;
+    font-size: 57.5px;
+}
+#sub-titulo-menuSuperior{
+    margin-top: 25px;
+    margin-left: 65px;
+    width: 1050px;
+    height: 30px;
+    font-size: 20px;
+}
+#menuSuperior{
+    background-color: #303030;
+    color: white;
+    position: absolute;
+    width: 1440px;
+    height: 475px;
+}
+#menuInformacional{
+    margin-top: 475px;
+    position: absolute;
+    width: 1440px;
+    height: 229px;
+    background-color: #F9F9F9;
+    color: black;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding-left: 65px;
+    padding-top: 100px;
+}
+.infNum{
+    display: flex;
+    font-size: 40px;
+    font-style: normal;
+}
+.infTxt{
+    display: flex;
+    font-size: 20px;
+    margin-top: 10px;
+}
+#promoAtividade{
+    margin-top: 705px;
+    position: absolute;
+    width: 1440px;
+    height: 775px;
+    background-color: #F5F5F5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+.promoAtiv{
+    display: flex;
+    align-items: center;
+}
+#txtPromoAtividade{
+    width: 735px;
+    height: 200px;
+}
+#layoutAP{
+    display: flex;
+    width: 480px;
+    height: 600px;
+}
+#formulario{
+    margin-top: 1480px;
+    position: absolute;
+    width: 1440px;
+    height: 640px;
+    background-color: #303030;
+    text-align: center;
+}
+#tituloFormulario{
+    font-size: 32px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: #FFFFFF;
+}
+input{
+    font-family: "raleway";
+    width: 510px;
+    height: 72px;
+    margin: 20px;
+    padding-left: 10px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+button{
+    font-family: "raleway";
+    width: 285px;
+    height: 75px;
+    margin: 20px;
+    margin-bottom: 40px;
+    border: 0px;
+    border-radius: 10px;
+    color: white;
+    background-color: #C07212;
+    font-weight: bolder;
+    font-size: 28px;
+    cursor: pointer;
+}
+button:hover{
+    font-family: "raleway";
+    transform:scale(105%);
+    transition-duration: 0.6s;
+    background-color: #C07212;
+    color: white;
+    box-shadow: -2px 7.5px 4px #995b0f5b;
+}
