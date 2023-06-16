@@ -27,24 +27,25 @@
     margin-top: 475px;
     position: absolute;
     width: 1440px;
-    height: 229px;
+    height: 230px;
     background-color: #F9F9F9;
     color: black;
     display: grid;
     grid-auto-flow: column;
     columns: auto;
-    padding-left: 65px;
-    padding-top: 100px;
 }
 .infNum{
     display: flex;
     font-size: 40px;
     font-style: normal;
+    padding-left: 65px;
+    padding-top: 75px;
 }
 .infTxt{
     display: flex;
     font-size: 20px;
     margin-top: 10px;
+    padding-left: 65px;
 }
 #promoAtividade{
     margin-top: 705px;
